@@ -1,9 +1,22 @@
 # Desafio Lilu - Welington
 
-### Tarefas
-[x] Criar login com autenticação Google
-[x] Criar tabela com lista de raças da API fornecida
-[x] Filtrar raças por texto
-[x] Abrir modal com informações sobre a raça
 
-### Observações
+## Desafio Lilu
+
+### Realizado
+
+✅ Login com firebase
+
+✅ Listagem de raças
+
+✅ Paginação
+
+✅ Pesquisa por raças
+
+✅ Modal com informações
+
+### Não realizado
+
+❌ Testes unitários
+
+❌ Autenticação com JWT
