@@ -1,0 +1,11 @@
+// General
+@import "./general/reset.scss";
+@import "./general/font.scss";
+
+// Pages
+@import "./pages/login.scss";
+@import "./pages/home.scss";
+
+// Components
+@import "./components/inputGroup.scss";
+@import "./components/modal.scss";

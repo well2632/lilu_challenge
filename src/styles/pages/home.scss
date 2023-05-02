@@ -1,0 +1,76 @@
+.page#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 24px;
+
+  .table-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 24px;
+    width: 60%;
+    height: 525px;
+
+    &__header {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      th {
+        font-weight: 500;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      tr:not(:first-child):hover {
+        cursor: pointer;
+        background-color: rgb(237, 237, 237);
+      }
+    }
+
+    .no-results {
+      height: 40px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+
+      .inactive > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        background-color: #20bdbd;
+        color: white;
+        border-radius: 4px;
+        &:hover {
+          background-color: #0d8d8d;
+        }
+      }
+
+      .active {
+        font-weight: 600;
+      }
+    }
+  }
+}
