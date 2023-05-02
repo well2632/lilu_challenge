@@ -1,6 +1,3 @@
-# Desafio Lilu - Welington
-
-
 ## Desafio Lilu
 
 ### Realizado
